@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.menu {
+  display: block;
+  overflow: hidden;
+  background-color: #2c3e50;
+  padding: auto 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ecf0f1;
+  padding: 20px;
+  font-size: 18px;
+  float: left;
+}
+
+.menu a#right {
+  float: right;
+}
+
+.menu a:hover {
+  background-color: #2ecc71;
+}
+
+.active {
+  background-color: #34495e;
+  cursor: no-drop;
+}
+
+.menu a.active:hover {
+  background-color: #e74c3c;
+}
+
+.header img {
+  width: 1903px;
+  height: 1080px;
+}
