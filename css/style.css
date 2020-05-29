@@ -40,7 +40,17 @@ body {
   background-color: #e74c3c;
 }
 
-.header img {
+.header {
   width: 1903px;
-  height: 1080px;
+  height: 950px;
+  background-image: url("../img/hero_img.jpg");
+  background-size: cover;
+}
+
+.header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #2c3e50;
 }
