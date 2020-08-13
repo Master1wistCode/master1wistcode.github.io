@@ -1,8 +1,25 @@
-.img{
-    height: 800px;
-    width: auto;
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap");
+
+body {
+  background-color: #1c1b29;
 }
-.img2{
-    height: 800px;
-    width: 1500px;
+
+#home {
+  height: 900px;
+  width: auto;
+  color: #fff;
+  padding: 300px;
+  font-family: "Permanent Marker", cursive;
+  background-image: url("img/home.jpg");
+  text-align: center;
+  /* align-items: center;
+  justify-content: center; */
+  background-size: cover;
+  background-position: center;
+  font-size: 25px;
+  
 }
+/* #home h1 {
+  width: 50%;
+  
+} */
