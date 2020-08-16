@@ -2,10 +2,53 @@
 
 body {
   background-color: #1c1b29;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+.menu {
+  padding: 10px 10px;
+  height: 7vh;
+}
+
+.logo {
+  font-family: "Permanent Marker", cursive;
+  color: cornflowerblue;
+  float: left;
+  padding: 10px 20px;
+}
+
+.nav-lists ul {
+  text-align: center;
+  overflow: hidden;
+  float: right;
+}
+
+.nav-lists ul li {
+  list-style: none;
+  float: left;
+  padding: 10px 20px;
+}
+
+.nav-lists ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.nav-lists ul li a:hover {
+  color: #dadada;
+}
+
+.nav-lists ul li a.active {
+  color: #43b581;
+  font-weight: bold;
+  font-family: "Permanent Marker", cursive;
 }
 
 #home {
-  height: 900px;
+  height: 93vh;
   width: auto;
   color: #fff;
   padding: 300px;
@@ -13,13 +56,7 @@ body {
   background-color: #00000063;
   background-image: url("img/home.jpg");
   text-align: center;
-  /* align-items: center;
-  justify-content: center; */
   background-size: cover;
   background-position: center;
   font-size: 25px;
 }
-/* #home h1 {
-  width: 50%;
-  
-} */
